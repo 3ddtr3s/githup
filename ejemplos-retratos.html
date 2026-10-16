@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ejemplos | Retratos personalizados 3dDtr3s</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kodchasan:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=20260618examples7">
+</head>
+<body class="examples-standalone-page">
+    <main class="examples-standalone-shell">
+        <div class="examples-standalone-topbar">
+            <a class="examples-standalone-close" href="index.html?service=retratos&examples=1#servicios" aria-label="Cerrar y volver a Retratos personalizados">
+                <span aria-hidden="true">&times;</span>
+            </a>
+        </div>
+
+        <section class="examples-standalone-hero" aria-labelledby="examplesRetratosTitle">
+            <p class="section-kicker">Retratos personalizados</p>
+            <h1 id="examplesRetratosTitle">Foto al lado del retrato</h1>
+            <p>Compara cada foto de referencia con un solo resultado final. Asi se ve mejor como cambia la foto en un retrato 3D terminado.</p>
+        </section>
+
+        <section class="examples-standalone-stack" aria-label="Comparativa de retratos personalizados">
+            <article class="examples-standalone-set">
+                <header class="examples-standalone-set-head">
+                    <span class="examples-standalone-chip">Koda</span>
+                    <h2>Foto + retrato 3D</h2>
+                    <p>La misma foto acompana el resultado final para comparar postura, proporciones y acabado.</p>
+                </header>
+                <div class="examples-standalone-pairs">
+                    <figure class="examples-standalone-media examples-standalone-photo">
+                        <span class="examples-standalone-media-tag">Foto</span>
+                        <img src="assets/service-user-20260607/retratos-koda-referencia.png" alt="Foto de referencia de Koda, perro marron con collar verde" loading="lazy" decoding="async">
+                    </figure>
+                    <figure class="examples-standalone-media examples-standalone-result">
+                        <span class="examples-standalone-media-tag">Resultado</span>
+                        <img src="assets/service-user-20260607/retratos-koda-resultado-01.png" alt="Retrato 3D personalizado de Koda en marco blanco, vista frontal" loading="lazy" decoding="async">
+                    </figure>
+                </div>
+            </article>
+
+            <article class="examples-standalone-set">
+                <header class="examples-standalone-set-head">
+                    <span class="examples-standalone-chip">Mariano</span>
+                    <h2>Foto + retrato 3D</h2>
+                    <p>La referencia y el resultado terminado quedan uno junto al otro para ver mejor la expresion y el volumen.</p>
+                </header>
+                <div class="examples-standalone-pairs">
+                    <figure class="examples-standalone-media examples-standalone-photo">
+                        <span class="examples-standalone-media-tag">Foto</span>
+                        <img src="assets/service-user-20260607/retratos-mariano-referencia.png" alt="Foto de referencia de Mariano, perro de pelaje esponjoso con la lengua afuera" loading="lazy" decoding="async">
+                    </figure>
+                    <figure class="examples-standalone-media examples-standalone-result">
+                        <span class="examples-standalone-media-tag">Resultado</span>
+                        <img src="assets/service-user-20260607/retratos-mariano-resultado-01.png" alt="Retrato 3D personalizado de Mariano en marco blanco, vista frontal" loading="lazy" decoding="async">
+                    </figure>
+                </div>
+            </article>
+
+            <article class="examples-standalone-set">
+                <header class="examples-standalone-set-head">
+                    <span class="examples-standalone-chip">Cooper</span>
+                    <h2>Foto + retrato 3D</h2>
+                    <p>Con este formato ves rapidamente como queda la mascota real junto al retrato ya terminado.</p>
+                </header>
+                <div class="examples-standalone-pairs">
+                    <figure class="examples-standalone-media examples-standalone-photo">
+                        <span class="examples-standalone-media-tag">Foto</span>
+                        <img src="assets/service-user-20260607/retratos-cooper-referencia.png" alt="Foto de referencia de Cooper, perro claro con panuelo a cuadros" loading="lazy" decoding="async">
+                    </figure>
+                    <figure class="examples-standalone-media examples-standalone-result">
+                        <span class="examples-standalone-media-tag">Resultado</span>
+                        <img src="assets/service-user-20260607/retratos-cooper-resultado-01.png" alt="Retrato 3D personalizado de Cooper en marco blanco, vista en angulo" loading="lazy" decoding="async">
+                    </figure>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script>
+        (function () {
+            const closeLink = document.querySelector(".examples-standalone-close");
+            if (!closeLink) return;
+
+            closeLink.addEventListener("click", (event) => {
+                event.preventDefault();
+
+                if (document.referrer.includes("index.html") && window.history.length > 1) {
+                    window.history.back();
+                    return;
+                }
+
+                window.location.href = closeLink.href;
+            });
+        })();
+    </script>
+</body>
+</html>

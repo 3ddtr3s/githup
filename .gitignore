@@ -1,0 +1,24 @@
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies and local tooling
+node_modules/
+**/node_modules/
+.pwtools/
+.agents/
+.vscode/
+_archive-original/
+
+# Local logs and temporary exports
+*.log
+temp-json.txt
+
+# Local visual verification captures
+verify-*.png
+hero-mobile-check.png
+contact-sheets/

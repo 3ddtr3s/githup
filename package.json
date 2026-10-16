@@ -1,0 +1,8 @@
+{
+  "name": "3ddtr3s-chatbot",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env server.mjs"
+  }
+}
