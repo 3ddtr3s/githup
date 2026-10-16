@@ -1,0 +1,22 @@
+[debug] [2026-06-17T03:58:14.913Z] ----------------------------------------------------------------------
+[debug] [2026-06-17T03:58:14.915Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Beto\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login --no-localhost
+[debug] [2026-06-17T03:58:14.915Z] CLI Version:   15.20.0
+[debug] [2026-06-17T03:58:14.915Z] Platform:      win32
+[debug] [2026-06-17T03:58:14.915Z] Node Version:  v24.16.0
+[debug] [2026-06-17T03:58:14.916Z] Time:          Tue Jun 16 2026 22:58:14 GMT-0500 (hora estándar de Perú)
+[debug] [2026-06-17T03:58:14.916Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-17T03:58:14.917Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[error] 
+[error] Error: Cannot run login in non-interactive mode. See login:ci to generate a token for use in non-interactive environments.
+[debug] [2026-06-17T04:03:38.510Z] ----------------------------------------------------------------------
+[debug] [2026-06-17T04:03:38.513Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Beto\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login:ci --no-localhost
+[debug] [2026-06-17T04:03:38.513Z] CLI Version:   15.20.0
+[debug] [2026-06-17T04:03:38.513Z] Platform:      win32
+[debug] [2026-06-17T04:03:38.513Z] Node Version:  v24.16.0
+[debug] [2026-06-17T04:03:38.513Z] Time:          Tue Jun 16 2026 23:03:38 GMT-0500 (hora estándar de Perú)
+[debug] [2026-06-17T04:03:38.513Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-17T04:03:38.515Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[error] 
+[error] Error: Cannot run login:ci in non-interactive mode.
